@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\selectors">
+      <UniqueIdentifier>{dae8976b-5ee1-48e1-b29a-2e9acb6f7b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\selectors">
+      <UniqueIdentifier>{7ddcbfc6-4842-468d-ac04-80ebc410be9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\boards">
+      <UniqueIdentifier>{e34caf00-0a47-4dae-8f52-c57c6bbc5c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\boards">
+      <UniqueIdentifier>{be47afa0-b213-40d5-94e5-49a01396f390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\evaluations">
+      <UniqueIdentifier>{b191b9c2-3b78-433c-afb4-8718f961bc16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\evaluations">
+      <UniqueIdentifier>{2ea30755-690c-4a9e-8a51-15290dd9096d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\front-end">
+      <UniqueIdentifier>{a19400c6-0bd3-4bf6-9938-58ddd6fd5341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\front-end">
+      <UniqueIdentifier>{3941fb63-09fe-4459-8e27-a83cd84925d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engines">
+      <UniqueIdentifier>{59f0f3ce-56d0-4a45-a870-87e0114be6d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\others">
+      <UniqueIdentifier>{7d431641-6087-418a-b67b-ae282e16bedb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engines">
+      <UniqueIdentifier>{2dcd4f89-c17f-47cf-9557-8196d3978b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pn-search">
+      <UniqueIdentifier>{2407d44c-1585-4dab-9e48-3e5f0e671feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pn-search">
+      <UniqueIdentifier>{d83f852d-f295-426a-9623-b413eb6bb8f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pn-search\transpositions">
+      <UniqueIdentifier>{433fb358-9ac9-4bbd-b960-c7f5345d5618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pn-search\transposition">
+      <UniqueIdentifier>{67cea4f2-9c16-4d05-b509-d852951164c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\db-search">
+      <UniqueIdentifier>{f0ca18d6-935d-45ae-b59b-92d08f41fdbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\db-search">
+      <UniqueIdentifier>{c637e4d8-bc11-4d03-8080-8ab81343c2da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bit_board.h">
+      <Filter>Header Files\boards</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_board.h">
+      <Filter>Header Files\boards</Filter>
+    </ClInclude>
+    <ClInclude Include="overlap_eval.h">
+      <Filter>Header Files\evaluations</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Header Files\front-end</Filter>
+    </ClInclude>
+    <ClInclude Include="console_ui.h">
+      <Filter>Header Files\front-end</Filter>
+    </ClInclude>
+    <ClInclude Include="abstract_engine.h">
+      <Filter>Header Files\engines</Filter>
+    </ClInclude>
+    <ClInclude Include="math_extension.h">
+      <Filter>Header Files\others</Filter>
+    </ClInclude>
+    <ClInclude Include="selector_helper.h">
+      <Filter>Header Files\selectors</Filter>
+    </ClInclude>
+    <ClInclude Include="pn_node.h">
+      <Filter>Header Files\pn-search</Filter>
+    </ClInclude>
+    <ClInclude Include="coords.h">
+      <Filter>Header Files\boards</Filter>
+    </ClInclude>
+    <ClInclude Include="board_list_selector.h">
+      <Filter>Header Files\selectors</Filter>
+    </ClInclude>
+    <ClInclude Include="log_board.h">
+      <Filter>Header Files\boards</Filter>
+    </ClInclude>
+    <ClInclude Include="abstract_ui.h">
+      <Filter>Header Files\front-end</Filter>
+    </ClInclude>
+    <ClInclude Include="zobrist_hash.h">
+      <Filter>Header Files\pn-search\transpositions</Filter>
+    </ClInclude>
+    <ClInclude Include="transposition_table.h">
+      <Filter>Header Files\pn-search\transpositions</Filter>
+    </ClInclude>
+    <ClInclude Include="threat_eval.h">
+      <Filter>Header Files\evaluations</Filter>
+    </ClInclude>
+    <ClInclude Include="threat_sequence.h">
+      <Filter>Header Files\db-search</Filter>
+    </ClInclude>
+    <ClInclude Include="threat_positions.h">
+      <Filter>Header Files\db-search</Filter>
+    </ClInclude>
+    <ClInclude Include="db_node.h">
+      <Filter>Header Files\db-search</Filter>
+    </ClInclude>
+    <ClInclude Include="db_search.h">
+      <Filter>Header Files\db-search</Filter>
+    </ClInclude>
+    <ClInclude Include="db_refute_search.h">
+      <Filter>Header Files\db-search</Filter>
+    </ClInclude>
+    <ClInclude Include="static_vector.h">
+      <Filter>Header Files\others</Filter>
+    </ClInclude>
+    <ClInclude Include="parameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="abstract_db_search.h">
+      <Filter>Header Files\db-search</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency_eval.h">
+      <Filter>Header Files\evaluations</Filter>
+    </ClInclude>
+    <ClInclude Include="threat_finder.h">
+      <Filter>Header Files\selectors</Filter>
+    </ClInclude>
+    <ClInclude Include="pn_search.h">
+      <Filter>Header Files\engines</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bit_board.cpp">
+      <Filter>Source Files\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_board.cpp">
+      <Filter>Source Files\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="overlap_eval.cpp">
+      <Filter>Source Files\evaluations</Filter>
+    </ClCompile>
+    <ClCompile Include="console_ui.cpp">
+      <Filter>Source Files\front-end</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files\front-end</Filter>
+    </ClCompile>
+    <ClCompile Include="pn_node.cpp">
+      <Filter>Source Files\pn-search</Filter>
+    </ClCompile>
+    <ClCompile Include="coords.cpp">
+      <Filter>Source Files\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="board_list_selector.cpp">
+      <Filter>Source Files\selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="log_board.cpp">
+      <Filter>Source Files\boards</Filter>
+    </ClCompile>
+    <ClCompile Include="zobrist_hash.cpp">
+      <Filter>Source Files\pn-search\transposition</Filter>
+    </ClCompile>
+    <ClCompile Include="transposition_table.cpp">
+      <Filter>Source Files\pn-search\transposition</Filter>
+    </ClCompile>
+    <ClCompile Include="threat_eval.cpp">
+      <Filter>Source Files\evaluations</Filter>
+    </ClCompile>
+    <ClCompile Include="threat_sequence.cpp">
+      <Filter>Source Files\db-search</Filter>
+    </ClCompile>
+    <ClCompile Include="threat_positions.cpp">
+      <Filter>Source Files\db-search</Filter>
+    </ClCompile>
+    <ClCompile Include="db_node.cpp">
+      <Filter>Source Files\db-search</Filter>
+    </ClCompile>
+    <ClCompile Include="db_search.cpp">
+      <Filter>Source Files\db-search</Filter>
+    </ClCompile>
+    <ClCompile Include="db_refute_search.cpp">
+      <Filter>Source Files\db-search</Filter>
+    </ClCompile>
+    <ClCompile Include="abstract_db_search.cpp">
+      <Filter>Source Files\db-search</Filter>
+    </ClCompile>
+    <ClCompile Include="parameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency_eval.cpp">
+      <Filter>Source Files\evaluations</Filter>
+    </ClCompile>
+    <ClCompile Include="threat_finder.cpp">
+      <Filter>Source Files\selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pn_search.cpp">
+      <Filter>Source Files\engines</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
