@@ -1,0 +1,2 @@
+# PNSearch
+Gomoku -- PN Search
